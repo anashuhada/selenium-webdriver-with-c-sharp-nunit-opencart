@@ -144,3 +144,4 @@ D:\SeleniumWithC#\OpenCart\obj\Debug\net8.0\refint\OpenCart.dll
 D:\SeleniumWithC#\OpenCart\obj\Debug\net8.0\OpenCart.pdb
 D:\SeleniumWithC#\OpenCart\obj\Debug\net8.0\OpenCart.genruntimeconfig.cache
 D:\SeleniumWithC#\OpenCart\obj\Debug\net8.0\ref\OpenCart.dll
+D:\SeleniumWithC#\OpenCart\obj\Debug\net8.0\OpenCart.sourcelink.json

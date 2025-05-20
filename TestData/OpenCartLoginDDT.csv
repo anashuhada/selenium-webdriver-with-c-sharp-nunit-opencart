@@ -1,0 +1,7 @@
+username,password,result
+alex.smith@yopmail.com,P@ssw0rd#123,Valid
+lakshmi@yahoo.com,Laxmi,Valid
+laksh@yahoo.com,Lakshmi,Valid
+laks@yahoo.com,xyz,Invalid
+abc123@gmail.com,test@123,Valid
+,test@1245,Invalid

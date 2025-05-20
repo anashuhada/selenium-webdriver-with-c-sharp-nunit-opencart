@@ -33,7 +33,6 @@
   <ItemGroup>
     <Folder Include="Screenshots\" />
     <Folder Include="Reports\" />
-    <Folder Include="TestData\" />
   </ItemGroup>
 
 </Project>

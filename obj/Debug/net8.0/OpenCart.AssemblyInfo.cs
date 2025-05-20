@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenCart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2045e9c5a568a289bc4d76cc2390d33bc3cd12c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenCart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenCart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

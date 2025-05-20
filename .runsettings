@@ -3,5 +3,7 @@
 	<TestRunParameters>
 		<Parameter name="browser" value="chrome"/>
 		<Parameter name="app_url" value="https://tutorialsninja.com/demo/"/>
+		<Parameter name="login_email" value="sarah.smith@xmail.com"/>
+		<Parameter name="login_password" value="P@ssw0rd123"/>
 	</TestRunParameters>
 </RunSettings>
