@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="browser" value="chrome"/>
+		<Parameter name="app_url" value="https://tutorialsninja.com/demo/"/>
+	</TestRunParameters>
+</RunSettings>
