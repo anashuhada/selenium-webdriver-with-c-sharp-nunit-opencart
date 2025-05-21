@@ -21,29 +21,44 @@ namespace OpenCart.Tests
 
             hp.clickLinkLogin();
 
-            LoginPage lp = new LoginPage(driver);
-            lp.setEmail(user.Email);
-            lp.setPassword(user.Password);
-            lp.clickLogin();
+            GenerateReport("LoginTestDDT");
+            LogInfo("Verify login using .csv file");
 
-            MyAccountPage map = new MyAccountPage(driver);
-            var account = map.isMyAccountPageExist();
-            if (account == true)
+            try
             {
-                Assert.That(account, Is.True);
+                LoginPage lp = new LoginPage(driver);
+                lp.setEmail(user.Email);
+                lp.setPassword(user.Password);
+                lp.clickLogin();
+
+                MyAccountPage map = new MyAccountPage(driver);
+                var account = map.isMyAccountPageExist();
+                if (account == true)
+                {
+                    Assert.That(account, Is.True);
+                }
+                else
+                {
+                    Assert.That(account, Is.False);
+                }
+
+                map.clicMyAccount();
+
+                Thread.Sleep(1000);
+
+                map.clickLogout();
+
+                LogPass("Test passed");
             }
-            else
+
+            catch (Exception ex)
             {
-                Assert.That(account, Is.False);
+                LogFail("Test failed", "LoginTestDDT");
+                Console.WriteLine($"Exception error: {ex.ToString}");
             }
 
-            map.clicMyAccount();
-
-            Thread.Sleep(1000);
-
-            map.clickLogout();
+         FlushReport();
 
         }
-    
     }
 }

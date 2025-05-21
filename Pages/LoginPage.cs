@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenCart.TestBase;
 using OpenQA.Selenium;
+using OpenQA.Selenium.DevTools.V134.Page;
 using SeleniumExtras.PageObjects;
 
 namespace OpenCart.Pages
@@ -26,7 +28,7 @@ namespace OpenCart.Pages
         IWebElement buttonLogin;
         
         public void setEmail(string email)
-        {
+        { 
             textEmail.SendKeys(email);
         }
 
